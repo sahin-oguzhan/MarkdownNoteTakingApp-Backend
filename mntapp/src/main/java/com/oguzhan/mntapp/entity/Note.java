@@ -14,6 +14,7 @@ import java.util.Set;
 @AllArgsConstructor
 @Entity
 @Data
+@Table(name = "note", schema = "mntapp")
 public class Note {
 
     @Id
